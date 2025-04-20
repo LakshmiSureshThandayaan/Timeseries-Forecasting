@@ -1,16 +1,16 @@
-## 🌞 Forecasting Mean Monthly Sunspots Using Prophet and XGBoost
+## Forecasting Mean Monthly Sunspots Using Prophet and XGBoost
 
-### 📌 Situation
+### Situation
 Sunspots are dark areas on the Sun's surface associated with intense magnetic activity. These phenomena follow a recognizable cyclic pattern, peaking roughly every 11 years, and are known to impact space weather and Earth's climate. This project explores the mean monthly sunspot data spanning from **1749 to 2020** to model and forecast future sunspot activity.
 
-### 🎯 Task
+### Task
 The objective was to:
 - Analyze long-term patterns and cycles in sunspot data.
 - Develop robust forecasting models using both **Prophet** and **XGBoost**.
 - Leverage **Bayesian Optimization** to fine-tune model hyperparameters for improved forecasting accuracy.
 - Compare model performance across different forecast periods.
 
-### 🔧 Action
+### Action
 - **Exploratory Data Analysis (EDA):**  
   Conducted preliminary analysis and identified clear cyclic behavior in the data. Peaks and troughs follow a roughly **10-year cycle**, with additional longer-term patterns over **30, 60, and 120 years**.
   
@@ -27,7 +27,7 @@ The objective was to:
 - **Evaluation:**
   - Models were evaluated using **Mean Absolute Error (MAE)** across different time slices to assess temporal stability and forecasting accuracy.
 
-### ✅ Result
+### Result
 
 | Model     | Forecast Period       | MAE    |
 |-----------|------------------------|--------|
